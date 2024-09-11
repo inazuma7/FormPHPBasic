@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Roboto", sans-serif;
+}
+
+body {
+    
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background: url(/FormPHPBasic/img/backg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.wrapper {
+    width: 420px;
+    background:transparent;
+    border: 2px solid rgb(255, 255, 255, .5);
+    color: #fff;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(45,42,62);
+}
+
+  
+textarea,input{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #655c81;
+}
+textarea:focus,input[type="text"]:focus{
+    outline: 3px solid #655c81;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+    font-family: "Roboto", sans-serif;
+}
+
+
+select{
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+input[type="text"], select, button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #ebbada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    color: #655c81;
+    font-style: 600px;
+    cursor: pointer;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+}
+
+button:hover{
+    background-color: rgb(199, 104, 158);
+    cursor: pointer;
+}
